@@ -22,7 +22,7 @@ export default function ConnectionStatus() {
     const interval = setInterval(() => {
       if (lastTimestamp) {
         const age = Date.now() - new Date(lastTimestamp).getTime();
-        setIsConnected(age <= 2000); // 2 seconds threshold
+        setIsConnected(age <= 5000); // 5 seconds threshold
       } else {
         setIsConnected(false);
       }
