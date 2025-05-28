@@ -3,7 +3,7 @@ export default function Footer() {
       <footer className="text-center text-sm text-gray-400 mt-2">
         © {new Date().getFullYear()}{" "}
         <a
-          href="https://www.linkedin.com/in/prathamesh-jadhav-4a920725a/" 
+          href="https://www.linkedin.com/in/prathamesh-jadhav-spaceclub/" 
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-400 hover:underline"
